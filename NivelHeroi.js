@@ -1,7 +1,9 @@
+//entrada de dados do herói
 let nomeHeroi =  "VG"
 let XP = 70000
 let nivelHeroi = ""
 
+//realiza o cálculo do nível do herói
 if(XP <= 1000){
     nivelHeroi = "Ferro"
 }
@@ -34,4 +36,5 @@ else {
     nivelHeroi = "Radiante"
 }
 
+//menssagem de saída
 console.log("O herói " + nomeHeroi + " está no nível " + nivelHeroi)
